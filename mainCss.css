@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+<style>
+#welcome{
+	font-size:50px;
+}
+.menuLink{
+	font-size:20px;
+	border:1px solid red;
+	padding:8px;
+	margin:px;
+	line-height: 2;
+}
+#linkedImg{
+	border:1px solid red;
+	float:right;
+}
+#topMenu{
+	border-bottom:1px solid grey;
+	padding:20px;
+	float:left;
+}
+</style>
