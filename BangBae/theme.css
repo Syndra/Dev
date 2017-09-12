@@ -1,0 +1,18 @@
+@charset "EUC-KR";
+#welcome{
+  border: 1px solid red;
+  text-align:center;
+  width: auto;
+  height: 100px;
+  vertical-align: baseline;
+}
+header{
+  border: 1px solid gray;
+}
+nav{
+  border: 1px solid blue;
+  float: left;
+  width: 200px;
+  height: 1000px;
+  padding-left: 20px;
+}
