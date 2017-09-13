@@ -1,29 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="theme.css">
-<meta name="description" content="방배동 삼총사의 음악, 시 공유 공간" />
-<meta name="author" content="dadasa13@naver.com" />
-<title>Lg.gg 방배동삼총사 미행하기</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <meta name="description" content="방배동 삼총사의 음악, 시 공유 공간" />
+  <meta name="author" content="dadasa13@naver.com" />
+  <title>Lg.gg 방배동삼총사 미행하기</title>
+  <style>
+  .music_div{
+    border-bottom : 1px solid gray;
+    width : 1000px;
+    height : 315px;
+    margin-bottom: 20px;
+  }
+  .music_div_aside{
+    border-left: 3px solid gray;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-left: 600px;
+  }
+  </style>
 </head>
-<body>
-<h1 id="welcome"><a href="index.html">어서와라 게이들아</a></h1>
-<header id="top_menu_bar">
-  <ul>
+<!-- Header -->
+<header id="header">
+  <div class="logo"><a href="index.html">Bangbae <span>Freedom</span></a></div>
+  <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+  <ul class="links">
     <li><a href="music.html">Music</a></li>
     <li><a href="game.html">Game</a></li>
-    <li><a href="poet.html">Poet</a></li>
+    <li><a href="picture.html">Picture</a></li>
   </ul>
-</header>
-<nav>
-  <li>K-pop</li>
-  <li>Pop</li>
-  <li>Edm</li>
-  <li>Best</li>
 </nav>
-<article>
 
-</article>
+<body class="subpage">
+  <div id="main">
+    <section class="wrapper style1">
+      <div class="inner">
+        <header class="align-center">
+          <h1>Music</h1>
+          <p>방배동 삼총사의 음악공유</p>
+        </header>
+        <article>
+          <div class="music_div">
+            <div style="float:left">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/d_8BYn42L8w" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <aside class="music_div_aside">
+              <h5>윤종신 - 오르막길</h5>
+            </aside>
+          </div>
+          <div class="music_div">
+            <div style="float:left">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/OSRtjPSpQfM" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <aside class="music_div_aside">
+              <h5>테이 - 그리움을 사랑한 가시나무</h5>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <!-- copyright -->
+  <footer id="footer">
+    <div class="copyright">
+      <p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a></p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
